@@ -5,6 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Touch Me If You Can</title>
+    <style>
+      body {
+        margin: 0;
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+        background: linear-gradient(-45deg, #902b0d, #e729d7, #1533de, #23d5ab);
+        animation: gradient 15s ease infinite;
+      }
+
+      #evil-button {
+        position: absolute;
+        white-space: nowrap;
+        font-size: 2rem;
+        background-color: rgb(154, 239, 239);
+      }
+    </style>
   </head>
   <body>
     <button id="evil-button">Click Me If You Can🤪</button>
